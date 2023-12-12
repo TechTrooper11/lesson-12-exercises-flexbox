@@ -1,0 +1,68 @@
+body{
+  font-family:roboto, arial;
+}
+
+.profile-1{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+p{
+  font-family: roboto, arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+
+.profile-info{
+  width: 200px;
+}
+
+.profile-name{
+  font-weight: 600;
+}
+
+.profile-description{
+  font-size: 14px;
+  color: gray;
+}
+
+.profile-stats{
+  font-size: 14px;
+  color: gray;
+}
+
+.follow-button{
+  height: 26px;
+  width: 75px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  border: none;
+  background-color: #1877f2;
+  color: white;
+  padding-left: 14px;
+  padding-right: 18px;
+  padding-top: 6px;
+  padding-bottom: 23px;
+  transition: 200ms;
+  cursor: pointer;
+
+}
+
+.follow-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.045);
+  transition-delay: 0s, 0s, 0s;
+  background-color: #0c69e1;
+  transition-duration: 0.2s, 0.2s, 0.2s;
+}
